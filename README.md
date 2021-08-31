@@ -10,7 +10,7 @@ A prototype for a mecanum wheel car that is controlled by a gamepad.
 - Mecanum Wheels
 
 ### Software:
-The gamepad class uses evdev to capture the gamepad input. Only if the button pressed is different from the previous button the information is passed on to the car class. The variable motorDirection is used by both classes. A lock is used to keep insure its integrity. The car class controlls the stepper motors.
+The gamepad class uses `evdev` to capture the gamepad input. The variable motorDirection is used by both classes. A lock insures its integrity. The car class controls the stepper motors.
 
 ## 3D Printing
 
